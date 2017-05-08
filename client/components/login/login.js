@@ -8,9 +8,9 @@ Template.login.events({
       loginStyle: 'redirect'
     });
   },
-  'click #login-facebook': function(){
-    Meteor.loginWithFacebook({
-      loginStyle: 'redirect'
+  'click #login-google': function(){
+    Meteor.loginWithGoogle({
+      loginStyle: 'popup'
     });
   },
   'click #login-password': function(e, t){

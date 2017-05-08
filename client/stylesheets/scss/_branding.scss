@@ -32,6 +32,8 @@ $facebook-blue: #3b5998;
 // Github Gray
 $github-gray: #e4e4e4;
 
+// Google Color
+$google-blue : #4285F4;
 // ===============================================================================
 
 //------------------------------
@@ -78,7 +80,7 @@ $github-gray: #e4e4e4;
   // background: $brand-primary;
 
   // Single background image covering the entire page
-   background: url(/assets/images/background.jpg) no-repeat center center;
+   background: url(/assets/images/background.jpg) center center ;
    background-size: cover;
 
   // Background image that repeats
@@ -92,7 +94,7 @@ $github-gray: #e4e4e4;
   color: white;
 
   // Single background image covering
-   background: url(/assets/images/background.jpg) no-repeat center center;
+   background: url(/assets/images/background.jpg) ;
    background-size: cover;
 
   // Basic white on brand color:

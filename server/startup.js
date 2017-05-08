@@ -11,9 +11,9 @@ Meteor.startup(function(){
 
   // Add Service Integrations
   addServiceIntegration('github', config.github);
-  addFacebookIntegration(config.facebook);
+  // addFacebookIntegration(config.facebook);
+  //addServiceIntegration('facebook', config.google);
   addServiceIntegration('google', config.google);
-
   // Add Base Settings
   setBasicSettings(config);
 

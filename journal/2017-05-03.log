@@ -1,0 +1,109 @@
+[[[[[ ~/HELPq ]]]]]
+
+=> Started proxy.
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://help.hackbordeaux.com
+[34mI20170503-16:11:44.175(0)? [39m[ Wed May 03 2017 16:11:43 GMT+0000 (UTC) ] Ticket Claimed by N9k3t8CPYXGwmcSNh
+[34mI20170503-16:11:45.936(0)? [39m[ Wed May 03 2017 16:11:45 GMT+0000 (UTC) ] Ticket Completed by N9k3t8CPYXGwmcSNh
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170504-08:19:53.231(0)? [39m[ Thu May 04 2017 08:19:53 GMT+0000 (UTC) ] Ticket Created by uRLLabup3ojh3Ehii
+[34mI20170504-08:20:08.544(0)? [39m[ Thu May 04 2017 08:20:08 GMT+0000 (UTC) ] Ticket Claimed by N9k3t8CPYXGwmcSNh
+[34mI20170504-08:20:34.943(0)? [39m[ Thu May 04 2017 08:20:34 GMT+0000 (UTC) ] Ticket Reopened: owsZsxoRQenCCJj3P
+[34mI20170504-08:20:41.444(0)? [39m[ Thu May 04 2017 08:20:41 GMT+0000 (UTC) ] Ticket Claimed by N9k3t8CPYXGwmcSNh
+[34mI20170504-08:20:42.827(0)? [39m[ Thu May 04 2017 08:20:42 GMT+0000 (UTC) ] Ticket Completed by N9k3t8CPYXGwmcSNh
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170504-22:18:19.153(0)? [39m[ Thu May 04 2017 22:18:19 GMT+0000 (UTC) ] Ticket 9C8bTjo8NpfYT8rDB, Rating: 4
+[34mI20170504-22:18:30.242(0)? [39m[ Thu May 04 2017 22:18:30 GMT+0000 (UTC) ] Ticket Created by Pr36Lnxv2LmwXt46k
+[34mI20170504-22:21:12.245(0)? [39m[ Thu May 04 2017 22:21:12 GMT+0000 (UTC) ] Ticket Claimed by FwoT4Cwtt2YDMm382
+[34mI20170504-22:21:19.473(0)? [39m[ Thu May 04 2017 22:21:19 GMT+0000 (UTC) ] Ticket Completed by FwoT4Cwtt2YDMm382
+[34mI20170504-22:21:49.587(0)? [39m[ Thu May 04 2017 22:21:49 GMT+0000 (UTC) ] Ticket jNkNxT4pie3kSdBc3, Rating: 5
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170505-16:02:42.997(0)? [39mException while invoking method 'login' Error: Match error: Match error: Failed Match.Where validation in field username in field user.username
+[34mI20170505-16:02:43.009(0)? [39m    at check (packages/check/match.js:33:1)
+[34mI20170505-16:02:43.012(0)? [39m    at [object Object].Accounts.registerLoginHandler.check.user (password_server.js:248:3)
+[34mI20170505-16:02:43.014(0)? [39m    at accounts_server.js:462:32
+[34mI20170505-16:02:43.061(0)? [39m    at tryLoginMethod (accounts_server.js:239:14)
+[34mI20170505-16:02:43.063(0)? [39m    at AccountsServer.Ap._runLoginHandlers (accounts_server.js:459:18)
+[34mI20170505-16:02:43.064(0)? [39m    at [object Object].methods.login (accounts_server.js:522:27)
+[34mI20170505-16:02:43.065(0)? [39m    at maybeAuditArgumentChecks (livedata_server.js:1698:12)
+[34mI20170505-16:02:43.067(0)? [39m    at livedata_server.js:708:19
+[34mI20170505-16:02:43.067(0)? [39m    at [object Object]._.extend.withValue (packages/meteor/dynamics_nodejs.js:56:1)
+[34mI20170505-16:02:43.070(0)? [39m    at livedata_server.js:706:40
+[34mI20170505-16:02:43.071(0)? [39mSanitized and reported to the client as: Match failed [400]
+[34mI20170505-16:02:43.072(0)? [39m
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170505-21:51:52.829(0)? [39m[ Fri May 05 2017 21:51:52 GMT+0000 (UTC) ] Ticket owsZsxoRQenCCJj3P, Rating: 5
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170506-10:14:35.249(0)? [39m[ Sat May 06 2017 10:14:35 GMT+0000 (UTC) ] Ticket Created by f6THru24bphLmArmm
+[34mI20170506-10:26:06.089(0)? [39m[ Sat May 06 2017 10:26:06 GMT+0000 (UTC) ] Ticket Claimed by 3MxLGuiDhjPrvDXjn
+[34mI20170506-10:36:28.173(0)? [39m[ Sat May 06 2017 10:36:28 GMT+0000 (UTC) ] Ticket Completed by 3MxLGuiDhjPrvDXjn
+[34mI20170506-10:41:25.508(0)? [39mException from sub allMentors id nGx7hNvB4fqJ4u8Ld TypeError: Cannot read property 'profile' of undefined
+[34mI20170506-10:41:25.546(0)? [39m    at Object.authorized.mentor (server/lib/permissions.js:17:1)
+[34mI20170506-10:41:25.553(0)? [39m    at [object Object].getAllMentors [as _handler] (server/publications.js:51:1)
+[34mI20170506-10:41:25.556(0)? [39m    at maybeAuditArgumentChecks (livedata_server.js:1698:12)
+[34mI20170506-10:41:25.577(0)? [39m    at [object Object]._.extend._runHandler (livedata_server.js:1023:17)
+[34mI20170506-10:41:25.578(0)? [39m    at livedata_server.js:810:39
+[34mI20170506-10:41:25.580(0)? [39m    at Function._.each._.forEach (packages/underscore/underscore.js:113:1)
+[34mI20170506-10:41:25.582(0)? [39m    at [object Object]._.extend._setUserId (livedata_server.js:806:7)
+[34mI20170506-10:41:25.584(0)? [39m    at [object Object].setUserId [as _setUserId] (livedata_server.js:666:14)
+[34mI20170506-10:41:25.586(0)? [39m    at [object Object]._.extend.setUserId (packages/ddp-common/method_invocation.js:94:1)
+[34mI20170506-10:41:25.590(0)? [39m    at [object Object].methods.logout (accounts_server.js:532:10)
+[34mI20170506-10:41:25.613(0)? [39mException from sub allMentors id BaKG6boq4cENc67bF TypeError: Cannot read property 'profile' of undefined
+[34mI20170506-10:41:25.616(0)? [39m    at Object.authorized.mentor (server/lib/permissions.js:17:1)
+[34mI20170506-10:41:25.625(0)? [39m    at [object Object].getAllMentors [as _handler] (server/publications.js:51:1)
+[34mI20170506-10:41:25.642(0)? [39m    at maybeAuditArgumentChecks (livedata_server.js:1698:12)
+[34mI20170506-10:41:25.643(0)? [39m    at [object Object]._.extend._runHandler (livedata_server.js:1023:17)
+[34mI20170506-10:41:25.644(0)? [39m    at livedata_server.js:810:39
+[34mI20170506-10:41:25.645(0)? [39m    at Function._.each._.forEach (packages/underscore/underscore.js:113:1)
+[34mI20170506-10:41:25.646(0)? [39m    at [object Object]._.extend._setUserId (livedata_server.js:806:7)
+[34mI20170506-10:41:25.646(0)? [39m    at [object Object].setUserId [as _setUserId] (livedata_server.js:666:14)
+[34mI20170506-10:41:25.657(0)? [39m    at [object Object]._.extend.setUserId (packages/ddp-common/method_invocation.js:94:1)
+[34mI20170506-10:41:25.661(0)? [39m    at [object Object].methods.logout (accounts_server.js:532:10)
+[34mI20170506-12:39:09.781(0)? [39m[ Sat May 06 2017 12:39:09 GMT+0000 (UTC) ] Ticket Created by G2vufeNkDRFQmANBu
+[34mI20170506-12:39:32.456(0)? [39m[ Sat May 06 2017 12:39:32 GMT+0000 (UTC) ] Ticket Cancelled by G2vufeNkDRFQmANBu
+[34mI20170506-12:49:12.566(0)? [39m[ Sat May 06 2017 12:49:12 GMT+0000 (UTC) ] Ticket Created by fNp2NokCws995f7SS
+[34mI20170506-12:49:32.819(0)? [39m[ Sat May 06 2017 12:49:32 GMT+0000 (UTC) ] Ticket Claimed by 3MxLGuiDhjPrvDXjn
+[34mI20170506-12:54:27.779(0)? [39m[ Sat May 06 2017 12:54:27 GMT+0000 (UTC) ] Ticket 7ijdGL39ooC29R5Ly, Rating: 5
+[34mI20170506-12:54:48.883(0)? [39m[ Sat May 06 2017 12:54:48 GMT+0000 (UTC) ] Ticket Created by f6THru24bphLmArmm
+[34mI20170506-12:57:11.439(0)? [39m[ Sat May 06 2017 12:57:11 GMT+0000 (UTC) ] Ticket Reopened: 4MJaRacTupAZuvNyo
+[34mI20170506-12:57:16.586(0)? [39m[ Sat May 06 2017 12:57:16 GMT+0000 (UTC) ] Ticket Claimed by 3MxLGuiDhjPrvDXjn
+[34mI20170506-12:58:01.233(0)? [39m[ Sat May 06 2017 12:58:01 GMT+0000 (UTC) ] Ticket Cancelled by fNp2NokCws995f7SS
+[34mI20170506-12:58:23.535(0)? [39m[ Sat May 06 2017 12:58:23 GMT+0000 (UTC) ] Ticket Created by fNp2NokCws995f7SS
+[34mI20170506-13:07:48.391(0)? [39m[ Sat May 06 2017 13:07:48 GMT+0000 (UTC) ] Ticket Claimed by hNurR7vbLDZdzufjs
+[34mI20170506-13:10:24.888(0)? [39m[ Sat May 06 2017 13:10:24 GMT+0000 (UTC) ] Ticket Completed by 3MxLGuiDhjPrvDXjn
+[34mI20170506-13:20:32.882(0)? [39m[ Sat May 06 2017 13:20:32 GMT+0000 (UTC) ] Ticket Completed by hNurR7vbLDZdzufjs
+[34mI20170506-13:29:24.132(0)? [39m[ Sat May 06 2017 13:29:24 GMT+0000 (UTC) ] Ticket Y5RfJFn2xCEZpYbg4, Rating: 5
+[34mI20170506-15:08:04.198(0)? [39m[ Sat May 06 2017 15:08:04 GMT+0000 (UTC) ] Ticket Created by xaAemLD4WZxGvY249
+[34mI20170506-15:08:06.330(0)? [39m[ Sat May 06 2017 15:08:06 GMT+0000 (UTC) ] Ticket Claimed by hNurR7vbLDZdzufjs
+[34mI20170506-15:08:14.912(0)? [39m[ Sat May 06 2017 15:08:14 GMT+0000 (UTC) ] Ticket Completed by hNurR7vbLDZdzufjs
+[34mI20170506-15:08:24.781(0)? [39m[ Sat May 06 2017 15:08:24 GMT+0000 (UTC) ] Ticket z5ztGksrzMTQ3kKps, Rating: 5
+[34mI20170506-15:58:22.304(0)? [39m[ Sat May 06 2017 15:58:22 GMT+0000 (UTC) ] Ticket Created by 45sTuvvt2t3bRm6xB
+[34mI20170506-16:01:00.081(0)? [39m[ Sat May 06 2017 16:01:00 GMT+0000 (UTC) ] Ticket Claimed by Nemm9mh9DisnaMiHa
+[34mI20170506-19:17:03.591(0)? [39m[ Sat May 06 2017 19:17:03 GMT+0000 (UTC) ] Ticket Created by Rdu3Yb6HuvdtG8Jw8
+[34mI20170506-21:14:09.878(0)? [39m[ Sat May 06 2017 21:14:09 GMT+0000 (UTC) ] Ticket 6A7QAhJsuyPhNRBaj, Rating: 4
+[34mI20170506-21:17:27.659(0)? [39m[ Sat May 06 2017 21:17:27 GMT+0000 (UTC) ] Ticket Created by fNp2NokCws995f7SS
+[34mI20170506-21:17:59.390(0)? [39m[ Sat May 06 2017 21:17:59 GMT+0000 (UTC) ] Ticket Cancelled by fNp2NokCws995f7SS
+[34mI20170506-21:19:53.519(0)? [39m[ Sat May 06 2017 21:19:53 GMT+0000 (UTC) ] Ticket Created by fNp2NokCws995f7SS
+[34mI20170506-21:28:53.498(0)? [39m[ Sat May 06 2017 21:28:53 GMT+0000 (UTC) ] Ticket Claimed by NALb8JtyapvPGoEyA
+[34mI20170506-21:29:03.202(0)? [39m[ Sat May 06 2017 21:29:03 GMT+0000 (UTC) ] Ticket Reopened: XpAkeEXg4CSYxCgqb
+[34mI20170506-22:25:08.926(0)? [39m[ Sat May 06 2017 22:25:08 GMT+0000 (UTC) ] Ticket Claimed by tQAhWvZERJX3j7Pxv
+[34mI20170506-22:26:56.287(0)? [39m[ Sat May 06 2017 22:26:56 GMT+0000 (UTC) ] Ticket Reopened: XpAkeEXg4CSYxCgqb
+[34mI20170506-22:27:01.066(0)? [39m[ Sat May 06 2017 22:27:01 GMT+0000 (UTC) ] Ticket Claimed by tQAhWvZERJX3j7Pxv
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mI20170507-01:01:06.734(0)? [39m[ Sun May 07 2017 01:01:06 GMT+0000 (UTC) ] Ticket Cancelled by fNp2NokCws995f7SS
+[34mI20170507-01:01:50.047(0)? [39m[ Sun May 07 2017 01:01:50 GMT+0000 (UTC) ] Ticket Created by fNp2NokCws995f7SS
+[34mI20170507-07:49:09.660(0)? [39m[ Sun May 07 2017 07:49:09 GMT+0000 (UTC) ] Ticket Created by AkXwpaygbNEjyjKnm
+[34mI20170507-09:16:57.676(0)? [39m[ Sun May 07 2017 09:16:57 GMT+0000 (UTC) ] Ticket Created by tHAWJttG4zQJXw8n5
+[34mI20170507-12:12:51.821(0)? [39m[ Sun May 07 2017 12:12:51 GMT+0000 (UTC) ] Ticket Cancelled by AkXwpaygbNEjyjKnm
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.
+[34mW20170508-04:12:21.742(0) (oauth_server.js:71) [39m[35mUnable to base64 decode state from OAuth query: undefined[39m
+[34mW20170508-04:12:21.758(0) (oauth_server.js:71) [39m[35mUnable to base64 decode state from OAuth query: undefined[39m
+[34mW20170508-04:12:21.766(0) (oauth_server.js:398) [39m[35mError in OAuth Server: Failed to complete OAuth handshake with Google. failed [400] {   "error" : "invalid_grant" }[39m
+[34mW20170508-04:12:28.467(0) (oauth_server.js:71) [39m[35mUnable to base64 decode state from OAuth query: undefined[39m
+[34mW20170508-04:12:28.486(0) (oauth_server.js:71) [39m[35mUnable to base64 decode state from OAuth query: undefined[39m
+[34mW20170508-04:12:28.492(0) (oauth_server.js:398) [39m[35mError in OAuth Server: Failed to complete OAuth handshake with GitHub. bad_verification_code[39m
+=> Meteor 1.4.4.2 is available. Update this project with 'meteor update'.

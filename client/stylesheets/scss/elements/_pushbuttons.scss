@@ -72,6 +72,8 @@ button.push {
     background: $facebook-blue;
     border-bottom-color: lighten($facebook-blue, 10);
   }
-
-
+  &.google {
+    background: $google-blue;
+    border-bottom-color: lighten($google-blue, 10);
+  }
 }
