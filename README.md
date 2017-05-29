@@ -14,7 +14,7 @@ curl https://install.meteor.com/ | sh
 ```
 #### git repo
 ```
-git clone git@github.com:hackeirb/HELPq.git
+git clone https://github.com/hackeirb/HELPq.git
 ```
 
 ### Setup
