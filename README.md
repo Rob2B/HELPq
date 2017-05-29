@@ -1,3 +1,51 @@
+# HELPq for hackBdx
+
+## Installation Dgital Ocean
+
+### Requirements
+#### Nginx
+```
+sudo apt-get update
+sudo apt-get install nginx
+```
+#### Meteor
+```
+curl https://install.meteor.com/ | sh
+```
+#### git repo
+```
+git clone git@github.com:hackeirb/HELPq.git
+```
+
+### Setup
+```
+cd HELPq
+chmod +x serve.sh
+chmod +x stop.sh
+sudo rm /etc/nginx/sites-available/*
+sudo cp hackbdx /etc/nginx/sites-enable/
+sudo nginx -s reload
+```
+
+#### Starting the server
+```
+cd HELPq
+./serve.sh
+```
+
+#### Monitoring the server
+```
+cd HELPq
+tail -f journal/hackbdx.log
+```
+
+#### Stopping the server
+```
+cd HELPq
+./stop.sh
+```
+
+
 HELPq
 ======
 
